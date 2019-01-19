@@ -1,7 +1,4 @@
-# Research-on-feature-importance-for-Stacking-models
-
-
-# Machine-Learning-for-a-Marketing-Campaign
+# Research-on-Feature-Importance-for-Stacking-Models
 
 **Author:**
 
@@ -9,27 +6,39 @@ I am Álvaro Orgaz Expósito, a data science student at KTH (Stockholm, Sweden) 
 
 **Abstract:** 
 
-This repository contains the final project of the Research Methodology and Scientific Writing course in my master's degree in Data Science at UPC-UB (Barcelona, Spain).
-of the Data Mining course in my bachelor's degree in statistics at UPC-UB (Barcelona, Spain).
+This repository contains the final project of the Research Methodology and Scientific Writing course in my master's degree in Data Science at KTH (Stockholm, Sweden).
+
+Have you ever sought treatment for a mental health issue from a mental health professional? This project answers this question using state of the art Machine Learning.
+
+The data used is a survey on mental health in the tech workplace known as *OSMI Mental Health in Tech Survey* available at Kaggle. It has 2692 responses in total (2014 and 2016) for asked questions that aimed to measure attitudes to mental health in the tech workplace and examine the frequency of mental disorders among tech workers. Download the data of the survey at:
+- *Data2014.csv* at https://www.kaggle.com/osmi/mental-health-in-tech-survey
+- *Data2016.csv* at https://www.kaggle.com/osmi/mental-health-in-tech-2016
 
 The main aims of this project are:
-- Preprocessing and exploratory data analysis of a dataset with customer characteristics for a marketign campaign
-- Apply unsupervised ML algorithms for develeping the exploratory data analysis
-- Apply supervised ML algorithms for predicting the probability of being good customer and comparing the predictive behaviour between models
+- Predict the probability of receiving treatment for a mental health issue from a mental health professional
+- Use the ensembling technique Stacking for combining Supervised Machine Learning models such as:
+  - Logistic Regression
+  - Random Forest
+  - K Nearest Neighbors
+  - ExtraTrees
+  - XGBoost
+  - LGBM
+  - Decision Tree
+  - AdaBoost
+- Explain the prediction of the Stacking model for a new person that answers the survey using statistics on original survey data
+- Provide a feature importance and instability measure for Stacking models
 
 **Files in main folder:**
-- R Markdown files with the code of the project (numerically ordered by logical steps in a data science project)
-- Raw data in *Data.xlsx*
-- *Data.RData* file with:
-  + *data*: dataframe with raw data preprocessed in file  *1. Preprocessing and Exploratory Data Analysis (EDA)*
-  + *data_train*: dataframe with train data splitted in file *3.1. Supervised ML Validation Protocol*
-  + *data_test*: dataframe with test data splitted in file *3.1. Supervised ML Validation Protocol*
-  + *data_train_folds*: list with 5 dataframes as validation folds or splits of the train data created in file *3.1. Supervised ML Validation Protocol*
-  + *AUC*: function of the performance metric used for validation
-- *Outputs* folder with outputs of the code (numerically ordered as the code):
-  + *.pdf* files with graphics and tables of results
-  + *.RData* one file for each model containing a dataframe with the validation results (AUC by 5-Fold Cross-Validaton)
+- Jupyter Notebook files with the code of the project (numerically ordered)
+- *Data* folder with data and outputs of the code:
+  + Survey data of 2014 in *Data2014.csv*
+  + Survey data of 2016 in *Data2016.csv*
+  + *data.dat* contains preprocessed survey data
+  + *data_splits.dat* contains preprocessed survey data split in train, validation and test
+  + *preprocessing_dictionaries.dat* contains preprocessing information of missings imputation, normalization and one hot encoding
+  + *model_layer1_.dat* files containing 1st stacking layer models
+  + *model_layer2_metalearner.dat* file containing 3nd stacking layer model or metalearner
 
 **Code:** 
 
-The project has been developed in R Markdown.
+The project has been developed in Python using Jupyter Notebook.
