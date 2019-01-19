@@ -25,8 +25,8 @@ The main aims of this project are:
 - *Data* folder with data and outputs of the code:
   + Survey data of 2014 in *Data2014.csv*
   + Survey data of 2016 in *Data2016.csv*
-  + *data.dat* contains preprocessed survey data
-  + *data_splits.dat* contains preprocessed survey data split in train, validation and test
+  + *data.dat* contains preprocessed survey data (without normalization and one hot encoding)
+  + *data_splits.dat* contains preprocessed survey data split in train, validation and test (with normalization and one hot encoding)
   + *preprocessing_dictionaries.dat* contains preprocessing information of missings imputation, normalization and one hot encoding
   + *model_layer1_.dat* files containing 1st stacking layer models
   + *model_layer2_metalearner.dat* file containing 3nd stacking layer model or metalearner
