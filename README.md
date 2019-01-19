@@ -16,15 +16,7 @@ The data used is a survey on mental health in the tech workplace known as *OSMI 
 
 The main aims of this project are:
 - Predict the probability of receiving treatment for a mental health issue from a mental health professional
-- Use the ensembling technique Stacking for combining Supervised Machine Learning models such as:
-  - Logistic Regression
-  - Random Forest
-  - K Nearest Neighbors
-  - ExtraTrees
-  - XGBoost
-  - LGBM
-  - Decision Tree
-  - AdaBoost
+- Use the ensembling technique Stacking for combining Supervised Machine Learning models such as: Logistic Regression, Random Forest, K Nearest Neighbors, ExtraTrees, XGBoost, LGBM, Decision Tree, AdaBoost
 - Explain the prediction of the Stacking model for a new person that answers the survey using statistics on original survey data
 - Provide a feature importance and instability measure for Stacking models
 
