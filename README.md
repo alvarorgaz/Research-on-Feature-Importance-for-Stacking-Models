@@ -21,7 +21,7 @@ The main aims of this project are:
 - Provide a feature importance and instability measure for Stacking models
 
 **Files in main folder:**
-- Jupyter Notebook files with the code of the project (numerically ordered)
+- Jupyter Notebook files with the code of the project
 - *Data* folder with data and outputs of the code:
   + Survey data of 2014 in *Data2014.csv*
   + Survey data of 2016 in *Data2016.csv*
