@@ -8,7 +8,7 @@ I am Álvaro Orgaz Expósito, a data science student at KTH (Stockholm, Sweden) 
 
 This repository contains the final project of the Research Methodology and Scientific Writing course in my master's degree in Data Science at KTH (Stockholm, Sweden).
 
-Have you ever sought treatment for a mental health issue from a mental health professional? This project answers this question using state of the art Machine Learning.
+Have you ever sought treatment for a mental health issue from a mental health professional? This project answers this question using state of the art Machine Learning. Check your results at http://141.223.239.241:1234/mentalchecker/
 
 The data used is a survey on mental health in the tech workplace known as *OSMI Mental Health in Tech Survey* available at Kaggle. It has 2692 responses in total (2014 and 2016) for asked questions that aimed to measure attitudes to mental health in the tech workplace and examine the frequency of mental disorders among tech workers. You can download the data of the survey at:
 - 2014 at https://www.kaggle.com/osmi/mental-health-in-tech-survey
